@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BHA509 - Fundamentals of Marketing Skills</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Mermaid.js for dynamic course figures/diagrams -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+    </script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">BHA509 <span>Marketing Skills</span></div>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#syllabus">Syllabus & Figures</a></li>
+                <li><a href="#quizzes">Quizzes</a></li>
+                <li><a href="#model-paper">Model Paper</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Fundamentals of Marketing Skills</h1>
+            <p>B.Sc. Hospitality & Hotel Administration – Semester V | Credits: 02</p>
+            <a href="#syllabus" class="btn">Explore Course Content & Figures</a>
+        </div>
+    </section>
+
+    <!-- Course Details & Overview -->
+    <section id="overview" class="container">
+        <h2>Course Particulars & Description</h2>
+        <div class="grid-2">
+            <div class="card">
+                <h3>Particulars</h3>
+                <ul>
+                    <li><strong>Course Code:</strong> BHA509[cite: 1]</li>
+                    <li><strong>Contact Hours:</strong> 30 class hours[cite: 1]</li>
+                    <li><strong>Evaluation:</strong> 100 term marks (40% Internal, 60% End Semester)[cite: 1]</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Description</h3>
+                <p>Introduces fundamental principles of marketing, strategic frameworks, market environments, consumer behavior, and digital marketing with applications to hotel and hospitality businesses[cite: 1].</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Syllabus & Unit Figures Section -->
+    <section id="syllabus" class="container bg-light">
+        <h2>Unit-wise Syllabus & Visual Figures</h2>
+        <p>Explore each unit along with its core theoretical figures and frameworks.</p>
+
+        <!-- Unit 1 -->
+        <div class="unit-card">
+            <h3>Unit 1: Introduction to Marketing</h3>
+            <p><strong>Topics:</strong> Marketing vs. sales, evolution of marketing, core concepts (need, want, demand, customer value), value exchange, marketing mix (4 Ps), goods vs. services[cite: 1].</p>
+            <div class="figure-container">
+                <h4>Figure 1.1: The Value Exchange Process & 4 Ps Marketing Mix</h4>
+                <div class="mermaid">
+                    graph LR
+                        Company[Hospitality Business] -->|Offers 4 Ps: Product, Price, Place, Promotion| Value[Customer Value / Service]
+                        Value -->|Satisfies Need, Want & Demand| Customer[Guest / Customer]
+                        Customer -->|Money, Feedback & Loyalty| Company
+                </div>
+            </div>
+        </div>
+
+        <!-- Unit 2 -->
+        <div class="unit-card">
+            <h3>Unit 2: Marketing Environment</h3>
+            <p><strong>Topics:</strong> 5 Cs (Customer, Company, Competitor, Collaborator, Context), PESTEL Analysis, SWOT Analysis, BCG Matrix, Porter’s Five Forces[cite: 1].</p>
+            <div class="grid-2">
+                <div class="figure-container">
+                    <h4>Figure 2.1: BCG Matrix Framework</h4>
+                    <div class="mermaid">
+                        graph TD
+                            subgraph BCG Matrix
+                                A[Stars: High Growth, High Share] --> B[Question Marks: High Growth, Low Share]
+                                C[Cash Cows: Low Growth, High Share] --> D[Dogs: Low Growth, Low Share]
+                            end
+                    </div>
+                </div>
+                <div class="figure-container">
+                    <h4>Figure 2.2: Porter's Five Forces</h4>
+                    <div class="mermaid">
+                        graph TD
+                            Competitors[Industry Rivalry]
+                            NewEntrants[Threat of New Entrants] --> Competitors
+                            Substitutes[Threat of Substitutes] --> Competitors
+                            Buyers[Bargaining Power of Buyers] --> Competitors
+                            Suppliers[Bargaining Power of Suppliers] --> Competitors
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Unit 3 -->
+        <div class="unit-card">
+            <h3>Unit 3: Scanning the Market Environment</h3>
+            <p><strong>Topics:</strong> Methods of market research, qualitative vs. quantitative research, competitive intelligence[cite: 1].</p>
+            <div class="figure-container">
+                <h4>Figure 3.1: Market Research & Intelligence Workflow</h4>
+                <div class="mermaid">
+                    graph LR
+                        Define[Identify Data Needs] --> Collect[Primary & Secondary Research]
+                        Collect --> QualQuant{Qualitative vs Quantitative}
+                        QualQuant -->|Interviews/Focus Groups| Qual[Qualitative Insights]
+                        QualQuant -->|Surveys/Metrics| Quant[Quantitative Data]
+                        Qual + Quant --> Analyze[Competitive Intelligence & Decision Making]
+                </div>
+            </div>
+        </div>
+
+        <!-- Unit 4 -->
+        <div class="unit-card">
+            <h3>Unit 4: Consumer Product Acquisition Process</h3>
+            <p><strong>Topics:</strong> Individual vs. organizational customers, buying roles, differences in purchase processes[cite: 1].</p>
+            <div class="figure-container">
+                <h4>Figure 4.1: Organizational Buying Roles</h4>
+                <div class="mermaid">
+                    graph LR
+                        Initiator --> Influencer
+                        Influencer --> Gatekeeper
+                        Gatekeeper --> Decider
+                        Decider --> Buyer
+                        Buyer --> User
+                </div>
+            </div>
+        </div>
+
+        <!-- Unit 5 -->
+        <div class="unit-card">
+            <h3>Unit 5: Digital Marketing</h3>
+            <p><strong>Topics:</strong> SEO, content marketing, social media, PPC, email, affiliate & influencer marketing, CRO, web analytics, website planning & security[cite: 1].</p>
+            <div class="figure-container">
+                <h4>Figure 5.1: Integrated Digital Marketing Ecosystem</h4>
+                <div class="mermaid">
+                    graph TD
+                        Traffic[Traffic Drivers: SEO, PPC, Social Media, Influencers] --> Website[Hotel Website & Domain Hosting]
+                        Website --> Engagement[Content & Email Marketing]
+                        Engagement --> Conversion[Conversion Rate Optimization (CRO)]
+                        Conversion --> Analytics[Web Analytics & Compliance]
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Quiz Section -->
+    <section id="quizzes" class="container">
+        <h2>Interactive Unit Quiz Sample</h2>
+        <div class="card quiz-card">
+            <h3>Unit 1: Introduction to Marketing - Question 1</h3>
+            <p>Which statement best distinguishes marketing from sales?</p>
+            <form id="quiz-form">
+                <label><input type="radio" name="q1" value="A"> A. Marketing focuses only on closing transactions</label><br>
+                <label><input type="radio" name="q1" value="B"> B. Marketing begins with customer needs and creates value[cite: 1]</label><br>
+                <label><input type="radio" name="q1" value="C"> C. Marketing is limited to advertising</label><br>
+                <label><input type="radio" name="q1" value="D"> D. Marketing occurs only after production</label><br>
+                <button type="button" class="btn mt-2" onclick="checkQuiz()">Submit Answer</button>
+            </form>
+            <p id="quiz-result" class="mt-2"></p>
+        </div>
+    </section>
+
+    <!-- Model Question Paper Section -->
+    <section id="model-paper" class="container bg-light">
+        <h2>University Model Question Paper (BHA509)</h2>
+        <div class="grid-2">
+            <div class="card">
+                <h3>Section A: Short-Answer (20 Marks)</h3>
+                <ul>
+                    <li>Differentiate between marketing and sales with one hospitality example[cite: 1].</li>
+                    <li>Explain the 4 Ps of the marketing mix[cite: 1].</li>
+                    <li>What are the 5 Cs of the marketing environment?[cite: 1]</li>
+                    <li>Distinguish between qualitative and quantitative market research[cite: 1].</li>
+                    <li>Define SEO and state its purpose[cite: 1].</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Section B: Essay / Application (40 Marks)</h3>
+                <ul>
+                    <li>Explain the evolution of the marketing concept and discuss the role of marketing in a hospitality organisation[cite: 1].</li>
+                    <li>Apply PESTEL and SWOT analysis to a hotel planning to enter a new local market[cite: 1].</li>
+                    <li>Prepare a digital marketing plan for a mid-sized hotel using SEO, content, social media, PPC, and email marketing[cite: 1].</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 BHA509 Fundamentals of Marketing Skills | B.Sc. Hospitality & Hotel Administration[cite: 1].</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
